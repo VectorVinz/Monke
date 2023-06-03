@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monkey Website</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #f1f1f1;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    
+    h1 {
+      color: #333333;
+    }
+    
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    video {
+      width: 800px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .overlay {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      color: black;
+      font-size: 14px;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Monkey Website!</h1>
+  <img src="monkey.jpg" alt="Monkey Picture">
+  <br>
+  <video controls loop>
+    <source src="monkey_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay">Vincent Waaler</div>
+</body>
+</html>
